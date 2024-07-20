@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family:;
+}
+
+.lucile-grad {
+    @apply bg-gradient-to-tr from-pink-700 to-pink-900
+}
+
+.lucile-grad-hover {
+    @apply hover:bg-gradient-to-tr hover:from-pink-700 hover:to-pink-900 duration-300
+}
