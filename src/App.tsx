@@ -11,6 +11,7 @@ import { categories } from "./lib/categories";
 import clsx from "clsx";
 import { Footer } from "./components/Footer";
 import { NavigationBar } from "./components/NavigationBar";
+import { Home } from "./components/Home";
 
 function App() {
   return (
@@ -187,7 +188,7 @@ function App() {
         }}
       >
         <Routes>
-          <Route path="/" element={<div>Home</div>} />
+          <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
